@@ -1,0 +1,40 @@
+/* --- visible: Valor padrão. O elemento é visível. --- */
+
+p {
+  visibility: visible;
+}
+
+/* --- hidden: O elemento fica escondido. --- */
+
+/* p {
+  visibility: hidden;
+} */
+
+/* --- collapse: Este elemento é utilizado para tabelas. --- */
+
+/* tr {
+  visibility: collapse;
+} */
+
+/* tbody {
+  visibility: collapse;
+} */
+
+/* td {
+  visibility: collapse;
+} */
+
+/* col:nth-child() {
+  visibility: collapse;
+}
+tr:nth-child() {
+  visibility: collapse;
+} */
+
+/* colgroup {
+  visibility: collapse;
+} */
+
+/* h2 {
+  visibility: collapse;
+} */
