@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll-Behavior</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        #section1 {
+            height: 600px;
+            background-color: pink;
+        }
+        #section2 {
+            height: 600px;
+            background-color: lightskyblue;
+        }
+        #section3 {
+            height: 600px;
+            background-color:lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo: Scroll-Behavior</h1>
+
+    <p>
+        A scroll-behavior define que quando um usuário clica em um link
+        a posição da pagina deve rolar suavemente, em vez de dar um salto direto.
+    </p>
+
+    <h2>Valores da propriedade</h2>
+    <dl>
+        <dt>Auto</dt>
+        <dd>Esse é o valor padrão. Permite um efeito de rolagem de salto.</dd>
+        <dt>Smooth</dt>
+        <dd>Permite um efeito de rolagem suave.</dd>
+    </dl>
+
+
+    <div id="section1">
+        <h3>Section 1</h3>
+        <a href="#section2">Clique aqui para ir até a próxima section com Scroll-Behavior</a>
+    </div>
+
+    <div id="section2">
+        <h3>Section 2</h3>
+        <a href="#section3">Clique aqui para ir até a próxima section com Scroll-Behavior</a>
+    </div>
+
+    <div id="section3">
+        <h3>Section 3</h3>
+        <a href="#section1">Clique aqui para ir até a próxima section com Scroll-Behavior</a>
+    </div>
+</body>
+</html>
