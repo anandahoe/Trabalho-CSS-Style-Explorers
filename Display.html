@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        p {color: purple}
+        p.ex1 {display: none;}
+        p.ex2 {display: inline;}
+        p.ex3 {display: block;}
+        p.ex4 {display: inline-block;}
+        p.ex5 {display: flex;}
+        p.ex6 {display: grid;}
+    </style>
+</head>
+<body>
+    <h1>Exemplo: Display</h1>
+    <p>
+    A propriedade display define se um elemento é tratado como um 
+    bloco ou elemento inline e o layout usado para seus filhos, 
+    como layout de fluxo, grid ou flex.
+    </p>
+
+    <h2>Valores da Propriedade:</h2>
+
+    <h2>display: none:</h2>
+    <div>
+        O elemento é completamente removido.
+        <p class="ex1">HELLO WORLD!</p>
+    </div>
+
+    <h2>display: inline:</h2>
+    <div>
+        O elemento gera uma ou mais caixas de elemento em linha que não geram quebras de linha antes ou depois de si mesmas. 
+        No fluxo normal, o próximo elemento estará na mesma linha se houver espaço.
+        <p class="ex2">HELLO WORLD!</p> 
+        Exibe um elemento como um elemento embutido. Quaisquer propriedades de altura e largura não terão efeito
+    </div>
+
+    <h2>display: block:</h2>
+    <div>
+        O elemento gera uma caixa de elemento de bloco, gerando quebras de linha antes e depois do elemento quando no fluxo normal.
+        <p class="ex3">HELLO WORLD!</p> 
+        Exibe um elemento como um elemento de bloco. Começa em uma nova linha e ocupa toda a largura
+    </div>
+
+    <h2>display: inline-block:</h2>
+    <div>
+        O elemento gera uma caixa de elemento de bloco que fluirá com o conteúdo ao redor como se fosse uma única caixa em linha 
+        (comportando-se como um elemento substituído faria).
+        <p class="ex4">HELLO WORLD!</p>
+        Exibe um elemento como um contêiner de bloco de nível embutido. O elemento em si é formatado como um elemento embutido, 
+        mas você pode aplicar valores de altura e largura
+    </div>
+
+    <h2>display: flex:</h2>
+    <div>
+        Exibe um elemento como um flex
+        <p class="ex5">HELLO WORLD!</p>
+        container em nível de bloco.
+    </div>
+
+    <h2>display: grid:</h2>
+    <div>
+        Exibe um elemento como um contêiner
+        <p class="ex6">HELLO WORLD!</p>
+        de grade em nível de bloco.
+    </div>
+
+    <h2>display: grid:</h2>
+    <div>
+        Exibe um elemento como um contêiner
+        <p class="ex7">HELLO WORLD!</p>
+        de grade em nível de bloco.
+    </div>
+
+
+
+</body>
+</html>
